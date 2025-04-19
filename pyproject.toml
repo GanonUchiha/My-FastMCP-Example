@@ -1,0 +1,10 @@
+[project]
+name = "my-fastmcp-example"
+version = "0.1.0"
+description = "My example of setting up a MCP server"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.2.0",
+    "mcp[cli]>=1.6.0",
+]
