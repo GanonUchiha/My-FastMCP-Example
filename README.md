@@ -96,3 +96,5 @@ Claude will then use the MCP server to calculate the result.
 
 For more info, visit: https://github.com/jlowin/fastmcp
 
+> ℹ️ **Reminder**: If you want to use debugging tools like `mcp-inspector`, you should use `@modelcontextprotocol/inspector@0.9.0` for best compatibility.
+
