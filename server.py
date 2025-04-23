@@ -40,5 +40,12 @@ def load_google_image() -> Image:
     """Loads the google.png image from the disk."""
     return Image(path="E:/Documents/Programming Projects/My-FastMCP-Example/google.png")  # Load the specific image
 
+
+@mcp.tool()
+def load_image_from_disk(path: str) -> Image:
+    """Loads an image from the specified path."""
+    # Handles reading file and detecting format based on extension
+    return Image(path=path)
+
 if __name__ == "__main__":
     mcp.run()
